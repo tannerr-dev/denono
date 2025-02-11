@@ -1,6 +1,5 @@
 import { html, raw } from 'hono/html'
 export const Layout = (props: { children: any, title?: string }) => (
-
   html`<!DOCTYPE html>
   <html>
     <head>

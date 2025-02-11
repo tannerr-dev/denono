@@ -8,10 +8,6 @@ const app = new Hono()
 
 app.use('/static/*', serveStatic({ root: './' }))
 
-
-// app.get('/', (c) => {
-//   return c.text('Hello Hono!')
-// })
 app.get('/', (c) => {
   return c.html(
     <Layout title='tannerr.dev'>
@@ -33,7 +29,6 @@ app.post('/entry', async (c) => {
   const body = await c.req.parseBody()
   console.log(body)
   return c.redirect('/')
-  // return c.body('Thank you for coming')
 })
 
 Deno.serve(app.fetch)

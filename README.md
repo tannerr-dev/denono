@@ -2,7 +2,7 @@
 deno task start
 ```
 
-# Dono
+# Denono
 This is a start for a web server using Hono on Deno using JSX/TSX templating.
 
 I will be adding to this as I build out my website using this (new to me) tech.

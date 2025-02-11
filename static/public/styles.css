@@ -1,0 +1,26 @@
+:root {
+  --bg:hsl(24, 12%, 12%);
+  --bg-op:hsla(24, 12%, 12%, 0.9);
+  --max: hsl(24, 2%, 2%);
+  --text: hsl(17, 28%, 90%);
+  --text2: hsl(17, 10%, 60%);
+  --text3: hsl(17, 10%, 20%);
+  --nav-btn: hsla(12, 35%, 20%, 1);
+  --nav-btn-hv: hsla(12, 35%, 40%, 1);
+
+}
+
+[data-theme="light"] {
+  --bg:hsl(37, 18%, 75%);
+  --bg-op:hsla(37, 28%, 75%, 0.9);
+  --max:hsl(17, 38%, 90%);
+  --text: hsl(24, 2%, 2%);
+  --text2: hsl(24, 2%, 22%);
+  --text3: hsl(24, 2%, 92%);
+  --nav-btn: hsla(32, 62%, 81%, 1);
+  --nav-btn-hv: hsla(22, 72%, 61%, 1);
+}
+html{
+    background-color:var(--bg);
+  color: var(--text)
+}
